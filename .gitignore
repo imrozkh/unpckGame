@@ -1,0 +1,10 @@
+node_modules
+.dist
+.DS_Store
+dist
+.tsbuildinfo
+.turbo
+.parcel-cache
+.env
+.vscode
+.idea

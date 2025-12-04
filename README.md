@@ -12,6 +12,13 @@ Reference docs for builders:
 - Trip logic and round composition: `docs/trip_logic.md`
 - Implementation spec: `docs/implementation_spec.md`
 
+Phase 1 React + Vite prototype:
+- Install dependencies: `npm install`
+- Run the dev server: `npm run dev` (default at http://localhost:5173)
+- Lint the project: `npm run lint`
+- Build for production: `npm run build` (outputs to `dist/`)
+- Source lives in `src/` and imports the trip/item JSON from `data/items.json`.
+
 Repository quickstart:
 - Content lives entirely in Markdown/JSON to stay tool-agnostic and easy to embed.
 - `data/` holds the game item library and trip metadata used by the scoring/validation logic.
