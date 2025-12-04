@@ -12,13 +12,6 @@ Reference docs for builders:
 - Trip logic and round composition: `docs/trip_logic.md`
 - Implementation spec: `docs/implementation_spec.md`
 
-Phase 1 React + Vite prototype:
-- Install dependencies: `npm install`
-- Run the dev server: `npm run dev` (default at http://localhost:5173)
-- Lint the project: `npm run lint`
-- Build for production: `npm run build` (outputs to `dist/`)
-- Source lives in `src/` and imports the trip/item JSON from `data/items.json`.
-
 Repository quickstart:
 - Content lives entirely in Markdown/JSON to stay tool-agnostic and easy to embed.
 - `data/` holds the game item library and trip metadata used by the scoring/validation logic.
@@ -29,8 +22,6 @@ Working in this repo:
 - Use the `work` branch for ongoing edits and keep commits focused on a single change.
 - Run local checks that apply to your contribution (e.g., linting or formatting once the app scaffold lands).
 - Include a short summary and testing notes in each commit message to keep PR reviews fast.
-- Default remote:
-  - `origin` → https://github.com/imrozkh/unpckGame (use `git push -u origin work` to publish changes)
 
 Platforms:
 
