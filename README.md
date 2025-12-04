@@ -7,6 +7,24 @@ Players rapidly decide which items belong in a selected trip-type loadout by swi
 
 The game reinforces UNPCK’s brand values of minimalism, modular packing, and smart travel decisions.
 
+Reference docs for builders:
+- Delivery plan: `PLAN.md`
+- Trip logic and round composition: `docs/trip_logic.md`
+- Implementation spec: `docs/implementation_spec.md`
+
+Repository quickstart:
+- Content lives entirely in Markdown/JSON to stay tool-agnostic and easy to embed.
+- `data/` holds the game item library and trip metadata used by the scoring/validation logic.
+- `docs/` contains build-facing specs; start with `implementation_spec.md` for architecture and state flow.
+- `PLAN.md` tracks milestones and acceptance criteria to align designers, engineers, and marketing.
+
+Working in this repo:
+- Use the `work` branch for ongoing edits and keep commits focused on a single change.
+- Run local checks that apply to your contribution (e.g., linting or formatting once the app scaffold lands).
+- Include a short summary and testing notes in each commit message to keep PR reviews fast.
+- Default remote:
+  - `origin` → https://github.com/imrozkh/unpckGame (use `git push -u origin work` to publish changes)
+
 Platforms:
 
 Instagram Stories/Reels Interactive
@@ -630,3 +648,7 @@ If you want next, I can deliver:
 ✔ JSON Item library skeleton
 ✔ Developer spec (API contracts + JS architecture)
 ✔ Marketing screen mockups for this game
+## Implementation Assets (Added)
+- `PLAN.md`: Delivery plan covering objectives, workstreams, phases, and acceptance criteria.
+- `docs/trip_logic.md`: Trip-specific rules, difficulty tuning, feedback, CTA/share, and instrumentation.
+- `data/items.json`: Mobile-friendly item library and trip metadata with tags and recommended loadouts.
