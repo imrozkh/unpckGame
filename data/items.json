@@ -1,0 +1,105 @@
+{
+  "trips": [
+    {
+      "id": "photography",
+      "name": "Photography Shoot",
+      "roundItemCount": { "min": 15, "max": 20 },
+      "difficultyDefaults": { "easy": 2.0, "medium": 1.7, "hard": 1.4 },
+      "recommendedLoadout": ["UNPCK Ridge Backpack", "Camera Cube", "Tech Pouch", "Packing Cubes"],
+      "items": [
+        { "name": "Mirrorless Camera", "tag": "essential" },
+        { "name": "24-70mm Lens", "tag": "essential" },
+        { "name": "Tripod", "tag": "useful" },
+        { "name": "ND Filter Set", "tag": "useful" },
+        { "name": "Laptop 14\"", "tag": "useful" },
+        { "name": "Studio Strobe", "tag": "not_required" },
+        { "name": "Blazer", "tag": "not_required" },
+        { "name": "Dress Shoes", "tag": "not_required" },
+        { "name": "Rubber Duck", "tag": "trap" },
+        { "name": "Gold Dumbbells", "tag": "trap" }
+      ]
+    },
+    {
+      "id": "weekend",
+      "name": "Weekend Travel",
+      "roundItemCount": { "min": 15, "max": 20 },
+      "difficultyDefaults": { "easy": 2.0, "medium": 1.7, "hard": 1.4 },
+      "recommendedLoadout": ["UNPCK Ridge Backpack", "Packing Cubes", "Toiletries Pouch"],
+      "items": [
+        { "name": "2× T-Shirts", "tag": "essential" },
+        { "name": "Travel Jeans", "tag": "essential" },
+        { "name": "Toiletries Pouch", "tag": "essential" },
+        { "name": "Lightweight Sneakers", "tag": "useful" },
+        { "name": "Packable Windbreaker", "tag": "useful" },
+        { "name": "DSLR Body", "tag": "not_required" },
+        { "name": "Gaming Console", "tag": "not_required" },
+        { "name": "Dress Shoes", "tag": "not_required" },
+        { "name": "Inflatable Flamingo", "tag": "trap" },
+        { "name": "Fondue Set", "tag": "trap" }
+      ]
+    },
+    {
+      "id": "work_trip",
+      "name": "Work Trip",
+      "roundItemCount": { "min": 15, "max": 20 },
+      "difficultyDefaults": { "easy": 2.0, "medium": 1.7, "hard": 1.4 },
+      "recommendedLoadout": ["UNPCK Ridge Backpack", "Tech Pouch", "Packing Cubes"],
+      "items": [
+        { "name": "Laptop 14\"", "tag": "essential" },
+        { "name": "Charger & Cables", "tag": "essential" },
+        { "name": "Button-down Shirt", "tag": "essential" },
+        { "name": "Blazer", "tag": "useful" },
+        { "name": "Noise-Canceling Headphones", "tag": "useful" },
+        { "name": "Gym Shoes", "tag": "useful" },
+        { "name": "Tripod", "tag": "not_required" },
+        { "name": "Hiking Boots", "tag": "not_required" },
+        { "name": "Giant Teddy Bear", "tag": "trap" },
+        { "name": "Desk Plant", "tag": "trap" }
+      ]
+    },
+    {
+      "id": "business_day",
+      "name": "Business Day Trip",
+      "roundItemCount": { "min": 15, "max": 20 },
+      "difficultyDefaults": { "easy": 2.0, "medium": 1.7, "hard": 1.4 },
+      "recommendedLoadout": ["UNPCK Ridge Backpack", "Tech Pouch"],
+      "items": [
+        { "name": "Laptop 14\"", "tag": "essential" },
+        { "name": "Notebook & Pen", "tag": "essential" },
+        { "name": "Phone Charger", "tag": "essential" },
+        { "name": "Water Bottle", "tag": "useful" },
+        { "name": "Light Jacket", "tag": "useful" },
+        { "name": "Packing Cubes", "tag": "not_required" },
+        { "name": "Toiletries Pouch", "tag": "not_required" },
+        { "name": "Running Shoes", "tag": "not_required" },
+        { "name": "VR Headset", "tag": "trap" },
+        { "name": "Beach Umbrella", "tag": "trap" }
+      ]
+    },
+    {
+      "id": "himalaya",
+      "name": "Himalaya Trek",
+      "roundItemCount": { "min": 15, "max": 20 },
+      "difficultyDefaults": { "easy": 2.0, "medium": 1.7, "hard": 1.4 },
+      "recommendedLoadout": ["UNPCK Ridge Backpack", "Packing Cubes", "Tech Pouch"],
+      "items": [
+        { "name": "Base Layers", "tag": "essential" },
+        { "name": "Insulated Jacket", "tag": "essential" },
+        { "name": "Water Purification Tabs", "tag": "essential" },
+        { "name": "Headlamp", "tag": "useful" },
+        { "name": "Trekking Poles", "tag": "useful" },
+        { "name": "Laptop 14\"", "tag": "not_required" },
+        { "name": "Dress Shoes", "tag": "not_required" },
+        { "name": "Cologne Collection", "tag": "not_required" },
+        { "name": "Gold Dumbbells", "tag": "trap" },
+        { "name": "Inflatable Flamingo", "tag": "trap" }
+      ]
+    }
+  ],
+  "tags": {
+    "essential": { "accept": true, "description": "Must-pack items for the trip." },
+    "useful": { "accept": true, "description": "Good-to-have items that improve comfort or utility." },
+    "not_required": { "accept": false, "description": "Skip these to stay minimal." },
+    "trap": { "accept": false, "description": "Humorous distractors to test decision speed." }
+  }
+}
